@@ -1,0 +1,16 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+    width: 50rem;
+}
+
+.boton{display: block;
+@include m.before(2rem,0.2rem,#a02424);
+   
+
+@include m.after(2rem,0.5rem,#d1cf65);
+  }
